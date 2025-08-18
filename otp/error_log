@@ -1,0 +1,105 @@
+[02-Jan-2023 06:46:09 UTC] PHP Notice:  fputs(): send of 28 bytes failed with errno=32 Broken pipe in /home/nayesoch/public_html/otp/smtp/class.smtp.php on line 653
+[02-Jan-2023 06:46:09 UTC] PHP Notice:  fputs(): send of 12 bytes failed with errno=32 Broken pipe in /home/nayesoch/public_html/otp/smtp/class.smtp.php on line 308
+[02-Jan-2023 06:46:19 UTC] PHP Notice:  fputs(): send of 28 bytes failed with errno=32 Broken pipe in /home/nayesoch/public_html/otp/smtp/class.smtp.php on line 653
+[02-Jan-2023 06:46:19 UTC] PHP Notice:  fputs(): send of 12 bytes failed with errno=32 Broken pipe in /home/nayesoch/public_html/otp/smtp/class.smtp.php on line 308
+[02-Jan-2023 06:46:29 UTC] PHP Notice:  fputs(): send of 28 bytes failed with errno=32 Broken pipe in /home/nayesoch/public_html/otp/smtp/class.smtp.php on line 653
+[02-Jan-2023 06:46:29 UTC] PHP Notice:  fputs(): send of 12 bytes failed with errno=32 Broken pipe in /home/nayesoch/public_html/otp/smtp/class.smtp.php on line 308
+[02-Jan-2023 12:10:26 UTC] PHP Notice:  fputs(): send of 28 bytes failed with errno=32 Broken pipe in /home/nayesoch/public_html/otp/smtp/class.smtp.php on line 653
+[02-Jan-2023 12:10:26 UTC] PHP Notice:  fputs(): send of 12 bytes failed with errno=32 Broken pipe in /home/nayesoch/public_html/otp/smtp/class.smtp.php on line 308
+[02-Jan-2023 12:10:36 UTC] PHP Notice:  fputs(): send of 28 bytes failed with errno=32 Broken pipe in /home/nayesoch/public_html/otp/smtp/class.smtp.php on line 653
+[02-Jan-2023 12:10:36 UTC] PHP Notice:  fputs(): send of 12 bytes failed with errno=32 Broken pipe in /home/nayesoch/public_html/otp/smtp/class.smtp.php on line 308
+[02-Jan-2023 12:21:03 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function smtp_mailer(), 3 passed in /home/nayesoch/public_html/otp/send_otp.php on line 12 and exactly 4 expected in /home/nayesoch/public_html/otp/send_otp.php:17
+Stack trace:
+#0 /home/nayesoch/public_html/otp/send_otp.php(12): smtp_mailer('karan.vnsit@gma...', 'OTP Verificatio...', 'Your otp verifi...')
+#1 {main}
+  thrown in /home/nayesoch/public_html/otp/send_otp.php on line 17
+[08-Aug-2023 11:39:17 UTC] PHP Warning:  session_start(): open(/opt/alt/php74/var/lib/php/session/sess_54a8715750452842b2a9452168c6a820, O_RDWR) failed: Disk quota exceeded (122) in /home/nayesoch/public_html/otp/send_otp.php on line 2
+[08-Aug-2023 11:39:17 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php74/var/lib/php/session) in /home/nayesoch/public_html/otp/send_otp.php on line 2
+[08-Aug-2023 11:39:25 UTC] PHP Warning:  session_start(): open(/opt/alt/php74/var/lib/php/session/sess_54a8715750452842b2a9452168c6a820, O_RDWR) failed: Disk quota exceeded (122) in /home/nayesoch/public_html/otp/send_otp.php on line 2
+[08-Aug-2023 11:39:25 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php74/var/lib/php/session) in /home/nayesoch/public_html/otp/send_otp.php on line 2
+[08-Aug-2023 11:39:31 UTC] PHP Warning:  session_start(): open(/opt/alt/php74/var/lib/php/session/sess_54a8715750452842b2a9452168c6a820, O_RDWR) failed: Disk quota exceeded (122) in /home/nayesoch/public_html/otp/send_otp.php on line 2
+[08-Aug-2023 11:39:31 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php74/var/lib/php/session) in /home/nayesoch/public_html/otp/send_otp.php on line 2
+[10-Sep-2023 07:48:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[10-Sep-2023 07:48:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[10-Sep-2023 07:48:31 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[10-Sep-2023 07:48:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[10-Sep-2023 07:48:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[10-Sep-2023 07:48:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[10-Sep-2023 07:48:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[10-Sep-2023 07:48:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[10-Sep-2023 07:48:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[18-Sep-2023 05:04:17 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[18-Sep-2023 05:04:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[18-Sep-2023 05:04:17 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[18-Sep-2023 05:05:32 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[18-Sep-2023 05:05:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[18-Sep-2023 05:05:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[18-Sep-2023 05:05:38 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[18-Sep-2023 05:05:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[18-Sep-2023 05:05:38 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[21-Sep-2023 09:16:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[21-Sep-2023 09:16:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[21-Sep-2023 09:16:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[21-Sep-2023 09:16:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[21-Sep-2023 09:16:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[21-Sep-2023 09:16:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[21-Sep-2023 09:16:52 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[21-Sep-2023 09:16:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[21-Sep-2023 09:16:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[21-Sep-2023 09:17:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[21-Sep-2023 09:17:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[21-Sep-2023 09:17:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[21-Sep-2023 09:17:08 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[21-Sep-2023 09:17:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[21-Sep-2023 09:17:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[21-Sep-2023 09:17:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[21-Sep-2023 09:17:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[21-Sep-2023 09:17:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[21-Sep-2023 09:17:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[21-Sep-2023 09:17:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[21-Sep-2023 09:17:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[26-Sep-2023 02:32:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[26-Sep-2023 02:32:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[26-Sep-2023 02:32:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[26-Sep-2023 02:33:01 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[26-Sep-2023 02:33:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[26-Sep-2023 02:33:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[26-Sep-2023 02:33:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[26-Sep-2023 02:33:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[26-Sep-2023 02:33:07 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[22-Feb-2024 07:59:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[22-Feb-2024 07:59:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[22-Feb-2024 07:59:31 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[22-Feb-2024 08:00:36 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[22-Feb-2024 08:00:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[22-Feb-2024 08:00:36 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[22-Feb-2024 08:00:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[22-Feb-2024 08:00:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[22-Feb-2024 08:00:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[01-Mar-2024 10:52:37 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[01-Mar-2024 10:52:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[01-Mar-2024 10:52:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[01-Mar-2024 10:52:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[01-Mar-2024 10:52:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[01-Mar-2024 10:52:47 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[01-Mar-2024 10:52:52 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[01-Mar-2024 10:52:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[01-Mar-2024 10:52:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[01-Mar-2024 10:52:52 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[01-Mar-2024 10:52:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[01-Mar-2024 10:52:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[01-Mar-2024 10:53:52 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[01-Mar-2024 10:53:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[01-Mar-2024 10:53:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[01-Mar-2024 10:55:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[01-Mar-2024 10:55:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[01-Mar-2024 10:55:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[29-May-2024 01:14:26 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[29-May-2024 01:14:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[29-May-2024 01:14:26 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[29-May-2024 01:15:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[29-May-2024 01:15:11 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[29-May-2024 01:15:11 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6
+[29-May-2024 01:15:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nayesoch_karan'@'localhost' (using password: YES) in /home/nayesoc1/public_html/otp/send_otp.php on line 3
+[29-May-2024 01:15:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/nayesoc1/public_html/otp/send_otp.php on line 5
+[29-May-2024 01:15:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nayesoc1/public_html/otp/send_otp.php on line 6

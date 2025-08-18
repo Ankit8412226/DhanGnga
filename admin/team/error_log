@@ -1,0 +1,2 @@
+[16-Jan-2025 01:53:53 UTC] PHP Warning:  move_uploaded_file(/cok.php): Failed to open stream: Permission denied in /home/nayesoc1/public_html/admin/team/Class.php on line 163
+[16-Jan-2025 01:53:53 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpTSd0mq' to '/cok.php' in /home/nayesoc1/public_html/admin/team/Class.php on line 163
