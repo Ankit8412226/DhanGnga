@@ -6,11 +6,12 @@
                     <div class="header position-relative">
                         <!-- brand logo -->
                         <div class="header__logo top-logo">
-                            <a href="index.php">
-                                <img src="assets/images/logo/logo-dark.webp" style="width:1050px;height:100px;" class="img-fluid" alt="">
-                            </a>
-                        </div>
-					
+    <a href="index.php">
+        <img src="assets/images/logo/Logos.jpeg" class="img-fluid" alt="Logo">
+    </a>
+</div>
+
+
                         <div class="header-right flexible-image-slider-wrap">
 
                             <div class="header-right-inner" id="hidden-icon-wrapper">
@@ -37,8 +38,8 @@
                                                     <div class="info-sub-title">manturani.pp@gmail.com</div>
                                                 </div>
                                             </div>
-                                        </div> 
-										
+                                        </div>
+
 										<div class="swiper-slide">
                                             <div class="info-item">
                                                 <div class="info-icon">
@@ -103,7 +104,7 @@
                                     </div>
                                 </div>
 
-                            </div> 
+                            </div>
                             <!-- mobile menu -->
                             <div class="mobile-navigation-icon d-block d-xl-none" id="mobile-menu-trigger">
                                 <i></i>
@@ -131,7 +132,7 @@
                                     <nav class="navigation-menu navigation-menu--text_white">
 
                                         <ul>
-                                            
+
                                               <!--  <ul class="submenu">
                                                     <li><a href="index-infotechno"><span>Infotechno</span></a></li>
                                                     <li><a href="index-processing"><span>Processing</span></a></li>
@@ -146,13 +147,13 @@
 											<li class="menu">
                                                 <a href="index.php"><span>Home</span></a>
                                                 <!-- multilevel submenu -->
-                                               
-                                            </li>   
+
+                                            </li>
 <li class="menu">
                                                 <a href="netralay.php"><span>Netralay</span></a>
                                                 <!-- multilevel submenu -->
-                                               
-                                            </li> 
+
+                                            </li>
 											<li class="menu">
                                                 <a href="about-us.php"><span>About</span></a>
                                                <!-- <ul class="submenu">
@@ -246,32 +247,32 @@
                                             <li class="menu">
                                                 <a href="services.php"><span>Services</span></a>
                                                 <!-- multilevel submenu -->
-                                               
+
                                             </li>
 											 <li class="menu">
                                                 <a href="appointment.php"><span>Appointment</span></a>
                                                 <!-- multilevel submenu -->
-                                               
+
                                             </li>
 											 <li class="menu">
                                                 <a href="join.php"><span>Join Us</span></a>
                                                 <!-- multilevel submenu -->
-                                               
+
                                             </li>
 											 <li class="menu">
                                                 <a href="news.php"><span>News</span></a>
                                                 <!-- multilevel submenu -->
-                                               
+
                                             </li>
 											<li class="menu">
                                                 <a href="offer.php"><span>Offer</span></a>
                                                 <!-- multilevel submenu -->
-                                               
+
                                             </li>
 											 <li class="menu">
                                                 <a href="contact-us.php"><span>Contact</span></a>
                                                 <!-- multilevel submenu -->
-                                               
+
                                             </li>
                                           <!--  <li class="has-children has-children--multilevel-submenu">
                                                 <a href="blog-list-large-image"><span>Blog</span></a>
@@ -295,12 +296,27 @@
                                 </div>
                             </div>
 
-                           
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <style>
+    /* Logo styling */
+    .header__logo.top-logo img {
+        max-width: 100%;   /* allows the logo to shrink on smaller screens */
+        height: auto;      /* maintains the original aspect ratio */
+        display: block;    /* removes extra space below image */
+        margin: 0 auto;    /* centers the logo */
+    }
+
+    /* Optional: header padding */
+    .header__logo.top-logo {
+        text-align: center;
+        padding: 10px 0;
+    }
+</style>
 
     </div>
     <!--====================  End of header area  ====================-->

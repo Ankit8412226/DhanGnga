@@ -103,11 +103,11 @@
                         <div class="col-12">
                             <div class="feature-list__one">
                                 <div class="row">
-                                 <?php 
+                                 <?php
 $query = "SELECT * FROM services";
 $result = mysqli_query($connect, $query);
 while ($row = mysqli_fetch_assoc($result)) {
-    
+
     ?>
                                       <div class="col-lg-3 col-md-6">
                                         <!-- ht-box-icon Start -->
@@ -167,7 +167,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                                     <li class="tab__item nav-item">
                                         <a class="nav-link" id="nav-tab2" data-bs-toggle="tab" href="#tab_list_07" role="tab" aria-selected="false">Our services</a>
                                     </li>
-                                  
+
                                 </ul>
                             </div>
 
@@ -200,12 +200,12 @@ while ($row = mysqli_fetch_assoc($result)) {
                                                     <div class="text mb-30">We are 24*7 available ! <br>Contact to require a detailed analysis and assessment of your plan.</div>
 
 													<ul class="check-list section-space--mb_40">
-                                                                            <?php 
+                                                                            <?php
 $query = "SELECT * FROM services";
 $result = mysqli_query($connect, $query);
 while ($row = mysqli_fetch_assoc($result)) {
-    
-    ?>                                                          
+
+    ?>
 													   <li class="list-item"><?php echo $row['sname'];?> </li>
                                                        <?php } ?>
 
@@ -224,7 +224,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                                 <div class="tab-pane fade" id="tab_list_07" role="tabpanel">
                                     <div class="tab-history-wrap section-space--mt_60">
                                         <div class="row">
-                           <?php 
+                           <?php
 $query = "SELECT * FROM services";
 $result = mysqli_query($connect, $query);
 while ($row = mysqli_fetch_assoc($result)) {
@@ -283,11 +283,11 @@ while ($row = mysqli_fetch_assoc($result)) {
                         </div>
                         <div class="col-lg-8 ht-team-member-style-one">
                             <div class="row">
-                            <?php 
+                            <?php
 										 $query = "SELECT * FROM team ";
 										$result = mysqli_query($connect, $query);
 										while ($row = mysqli_fetch_assoc($result)) {
-    
+
 											?>
 								<div class="col-lg-6 col-md-6 wow move-up">
                                     <div class="grid-item">
@@ -371,7 +371,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                 </div>
             </div>
             <!--=========== fun fact Wrapper End ==========-->
-           
+
 
       <?php include "footer.php"?>
 
@@ -410,7 +410,7 @@ $(document).ready(function(){
 </script>
 
     <!--====================  search overlay ====================-->
-  
+
     <!--====================  End of search overlay  ====================-->
 
     <!-- JS

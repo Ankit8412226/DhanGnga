@@ -76,11 +76,11 @@
 										{
 										    $rup='₹';
 										}
-										
+
 										?>
-										
+
 	<?php
-							  $sid=$_POST['id2'];												
+							  $sid=$_POST['id2'];
 $query = "SELECT * FROM subcatogry where scid='$sid'";
                                     $result = mysqli_query($connect, $query);
                                     $row = mysqli_fetch_assoc($result);
@@ -104,7 +104,7 @@ $query = "SELECT * FROM subcatogry where scid='$sid'";
                                     </div>
                                     <div class="pricing-table__body">
                                         <div class="pricing-table__footer">
-                                        <input name="id" type="hidden"  value="<?php echo $row['scid'];?>">                                           
+                                        <input name="id" type="hidden"  value="<?php echo $row['scid'];?>">
 										  <div class="contact-select">
                                             <div class="form-item contact-inner">
                                              <span class="inquiry">
@@ -116,12 +116,12 @@ $query = "SELECT * FROM subcatogry where scid='$sid'";
 											 $result = mysqli_query($connect, "SELECT * FROM type where scn='$sid' ");
                                         while ($row = mysqli_fetch_array($result)) {
                                             ?>
-                                            
+
                                             <br>
-<a href="adv.php?id=<?php echo $row["t1"]; ?>&id2=<?php echo $dty;?>" class=" btn-primary"><?php echo $row["t1"]; ?></a>  
+<a href="adv.php?id=<?php echo $row["t1"]; ?>&id2=<?php echo $dty;?>" class=" btn-primary"><?php echo $row["t1"]; ?></a>
 </br>
-										
-                                       
+
+
                                           <?php
                                         }
 										}
@@ -133,12 +133,12 @@ $query = "SELECT * FROM subcatogry where scid='$sid'";
 											 $result = mysqli_query($connect, "SELECT * FROM type where scn='$sid' ");
                                         while ($row = mysqli_fetch_array($result)) {
                                             ?>
-                                            
+
                                             <br>
-<a href="adv.php?id=<?php echo $row["t1"]; ?>&id2=<?php echo $dty;?>" class=" btn-primary"><?php echo $row["t1"]; ?></a>  
+<a href="adv.php?id=<?php echo $row["t1"]; ?>&id2=<?php echo $dty;?>" class=" btn-primary"><?php echo $row["t1"]; ?></a>
 </br>
-										
-                                       
+
+
                                           <?php
                                         }
 										}
@@ -150,12 +150,12 @@ $query = "SELECT * FROM subcatogry where scid='$sid'";
 											 $result = mysqli_query($connect, "SELECT * FROM type where scn='$sid' ");
                                         while ($row = mysqli_fetch_array($result)) {
                                             ?>
-                                            
+
                                             <br>
-<a href="adv.php?id=<?php echo $row["t1"]; ?>&id2=<?php echo $dty;?>" class=" btn-primary"><?php echo $row["t1"]; ?></a>  
+<a href="adv.php?id=<?php echo $row["t1"]; ?>&id2=<?php echo $dty;?>" class=" btn-primary"><?php echo $row["t1"]; ?></a>
 </br>
-										
-                                       
+
+
                                           <?php
                                         }
 										}
@@ -164,25 +164,19 @@ $query = "SELECT * FROM subcatogry where scid='$sid'";
                                             </div>
                                         </div>
 	   <?php
-											$v=1;
+										$v=1;
 										$t = $_POST['id'];
 										if ($t == $v) {
-										    	echo'<input name="Next" type="submit" class="btn" value="Next">';
 										echo'<ul class="pricing-table__list text-left">
-                                            <h6>आवश्यक दस्तावेज</h6>                                          
+                                            <h6>आवश्यक दस्तावेज</h6>
                                         </ul>
                                         <ul class="pricing-table__list text-left">
-                                            <li> '.$doc.'</li>                                          
+                                            <li> '.$doc.'</li>
                                         </ul>';
 										}
-										else
-										{
-									
-										    
-										}
-										
-											
-										    
+
+                                        // Next button is now always visible
+                                        echo'<input name="Next" type="submit" class="btn" value="Next">';
 ?>
 <?php
 											   $v=11;
@@ -305,14 +299,14 @@ $query = "SELECT * FROM subcatogry where scid='$sid'";
 										}
                                         ?>
 										</div>
-								
+
                                     </div>
                                 </div>
 								 </form>
 
-								
+
 						   </div>
-                          
+
                         </div>
                     </div>
                 </div>
@@ -373,7 +367,7 @@ $query = "SELECT * FROM subcatogry where scid='$sid'";
                             <div class="contact-form-service-wrap">
                                 <div class="contact-title text-center section-space--mb_40">
                                     <h3 class="mb-10">Need a hand?</h3>
-                                    <p class="text">Reach out to the world’s most reliable IT services.</p>
+                                    <p class="text">Reach out to the world's most reliable IT services.</p>
                                 </div>
 
                                <form class="contact-form"  action="" enctype="multipart/form-data" method="post">
@@ -391,15 +385,15 @@ $query = "SELECT * FROM subcatogry where scid='$sid'";
                                                 <span class="inquiry">
                                         <select id="Visiting" required name="edept" required >
 										   <option disabled selected>Select Department</option>
-                                         <?php 
+                                         <?php
 										 $query = "SELECT * FROM services";
 										$result = mysqli_query($connect, $query);
 										while ($row = mysqli_fetch_assoc($result)) {
-    
+
 											?>
                                          <option value="<?php echo $row['sname'];?>"><?php echo $row['sname'];?></option>
-                                         
-                                         
+
+
                                         <?php } ?>
 										</select>
 
@@ -422,7 +416,7 @@ $query = "SELECT * FROM subcatogry where scid='$sid'";
                 </div>
             </div>
             <!--============ Contact Us Area End =================-->
-           
+
         </div>
 
     <?php include "footer.php"?>
@@ -434,7 +428,7 @@ $query = "SELECT * FROM subcatogry where scid='$sid'";
     </a>
     <!--====================  End of scroll top  ====================-->
     <!-- Start Toolbar -->
- 
+
     <!-- End Toolbar -->
 
       <?php include "mobile.php"?>
