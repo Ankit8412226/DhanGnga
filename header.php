@@ -149,11 +149,7 @@
                                                 <!-- multilevel submenu -->
 
                                             </li>
-<li class="menu">
-                                                <a href="netralay.php"><span>Netralay</span></a>
-                                                <!-- multilevel submenu -->
 
-                                            </li>
 											<li class="menu">
                                                 <a href="about-us.php"><span>About</span></a>
                                                <!-- <ul class="submenu">
