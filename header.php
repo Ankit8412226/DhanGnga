@@ -7,7 +7,7 @@
                         <!-- brand logo -->
                         <div class="header__logo top-logo">
     <a href="index.php">
-        <img src="assets/images/logo/Logos.jpeg" class="img-fluid" alt="Logo">
+        <img src="assets/images/logo/Hello.jpeg" class="img-fluid" alt="Logo">
     </a>
 </div>
 

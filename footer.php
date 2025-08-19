@@ -5,7 +5,7 @@
                     <div class="row footer-widget-wrapper">
                         <div class="col-lg-4 col-md-6 col-sm-6 footer-widget">
                             <div class="footer-widget__logo mb-30">
-                                <img src="assets/images/logo/dark-logo-160x48.webp" width="160" height="48" class="img-fluid" alt="">
+                                <img src="assets/images/logo/Hello.jpeg" width="160" height="48" class="img-fluid" alt="">
                             </div>
                             <ul class="footer-widget__list">
                                 <li>NAYATOLA TINPULYA (GANESHPUR) P.O.-  KHIRIBANDH, P.S.- JAGDISHPUR. DIST.-  BHAGALPUR</li>
